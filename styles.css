@@ -11,6 +11,7 @@ nav{
     padding-bottom: 5px;
     color: #c7d8fd;
     text-align: center;
+    padding-right: 100px;
 
 }
 
@@ -19,7 +20,7 @@ nav > p {
     display:inline-block;
     border: solid white 2px;
     padding: 3mm;
-    border-radius: 0.15em;
+    border-radius: 6px;
     color:rgb(255, 255, 255);
     text-decoration: none;
     transition-duration: 150ms ;
@@ -59,7 +60,7 @@ p{
     display:inline-block;
     border: solid white 2px;
     padding: 3mm;
-    border-radius: 0.15em;
+    border-radius: 6px;
     color:rgb(255, 255, 255);
     text-decoration: none;
     transition-duration: 150ms ;
@@ -75,7 +76,7 @@ p{
     display:inline-block;
     border: solid white 2px;
     padding: 3mm;
-    border-radius: 0.15em;
+    border-radius: 6px;
     color:rgb(255, 255, 255);
     text-decoration: none;
     transition-duration: 150ms ;
@@ -91,7 +92,7 @@ p{
     display:inline-block;
     border: solid white 2px;
     padding: 3mm;
-    border-radius: 0.15em;
+    border-radius: 6px;
     color:rgb(255, 255, 255);
     text-decoration: none;
     transition-duration: 150ms ;
@@ -107,7 +108,7 @@ p{
   display:inline-block;
   border: solid rgb(131, 131, 131) 2px;
   padding: 3mm;
-  border-radius: 0.15em;
+  border-radius: 6px;
   color:rgb(0, 0, 0);
   text-decoration: none;
   transition-duration: 150ms ;
@@ -124,7 +125,7 @@ p{
   display:inline-block;
   border: solid rgb(131, 131, 131) 2px;
   padding: 3mm;
-  border-radius: 0.15em;
+  border-radius: 6px;
   color:rgb(0, 0, 0);
   text-decoration: none;
   transition-duration: 150ms ;
@@ -141,7 +142,7 @@ p{
   display:inline-block;
   border: solid rgb(131, 131, 131) 2px;
   padding: 3mm;
-  border-radius: 0.15em;
+  border-radius: 6px;
   color:rgb(0, 0, 0);
   text-decoration: none;
   transition-duration: 150ms ;
@@ -156,7 +157,7 @@ p{
   display:inline-block;
   border: solid rgb(131, 131, 131) 2px;
   padding: 3mm;
-  border-radius: 0.15em;
+  border-radius: 6px;
   color:rgb(0, 0, 0);
   text-decoration: none;
   transition-duration: 150ms ;
@@ -193,7 +194,7 @@ p{
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 60%);
   font-size: 30px;
 }
 
@@ -209,18 +210,20 @@ p{
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, 0%);
   font-size: 15px;
 }
 
 .box3 ,.box4, .box5 { 
   background:rgb(222, 222, 222);
-  margin:20px
+  margin:20px;
+  height: 50vh;
+  margin-top:30px;
 }
 
 .box1, .box2{
   background:rgb(222, 222, 222);
-  margin:0px
+  margin:30px
 }
 
 .flex-container {
@@ -239,38 +242,34 @@ p{
 .flex-container1 {
 
     border:0px solid #2e3f64;
-    width: 62vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     text-align: center;
     margin: auto ;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:center;
     margin-bottom:80px;
 }
 
 .box1 {
     height: 540px;
-    width: 27.1vw;
+    width: 555px;
     order:2;  
     font-size: 18px;
-
 }
   
 .box2 {
-    height: 540px;
-    width: 27.1vw;
-    order:2;
-    font-size: 18px;
-
+  height: 540px;
+  width: 555px;
+  order:2;
+  font-size: 18px;
 }
   
 .box3 {
-    margin-top:4px;
+
     order:1;
     font-size: 18px;
-    height: 45vh;
     width: 360px;
 
     margin-bottom: 30px;
@@ -278,24 +277,20 @@ p{
 }
   
 .box4 {
-    margin-top:4px;
     order:1;
     font-size: 18px;
-    height: 45vh;
     width: 360px;
     margin-bottom: 30px;
     padding-bottom: 40px;
 }
   
 .box5 {
-    margin-top:4px;
-    order:1;
-    font-size: 18px;
-    height: 45vh;
-    width: 360px;
-    margin-left: 27px;
-    margin-bottom: 30px;
-    padding-bottom: 40px;    
+  order:1;
+  font-size: 18px;
+  width: 360px;
+  margin-left: 27px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;    
 }
 
 footer{
@@ -326,19 +321,31 @@ img{
 
     border:0px solid #2e3f64;
     display: flex;
-    width: 57vw;
     flex-wrap: wrap;
     flex-direction: row;
     text-align: center;
     margin: auto ;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:center;
     margin-top:80px
+}
+
+.flex-con1 {
+
+  border:0px solid #2e3f64;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  margin: auto ;
+  align-items:center;
+  justify-content:center;
+  margin-top:80px
 }
 
 .boxa {
     height: 540px;
-    width: 12.7vw;
+    width: 260px;
     order:1;  
     font-size: 18px;
     margin: 10px;
@@ -347,7 +354,7 @@ img{
   
 .boxb {
     height: 540px;
-    width: 12.7vw;
+    width: 260px;
     order:1;  
     font-size: 18px;
     padding-bottom: 140px;
@@ -355,7 +362,7 @@ img{
   
 .boxc {
     height: 540px;
-    width: 12.7vw;
+    width: 260px;
     order:1;  
     font-size: 18px;
     padding-bottom: 140px;
@@ -363,7 +370,7 @@ img{
   
 .boxd {
     height: 540px;
-    width: 12.7vw;
+    width: 260px;
     order:1;  
     font-size: 18px;
     padding-bottom: 140px;
@@ -373,7 +380,7 @@ img{
     margin-top:4px;
     order:2;
     font-size: 18px;
-    width: 55.7vw;
+    width: 1140px;
     margin: 10px;
     margin-bottom: 30px;
     padding-bottom: 40px; 
@@ -382,14 +389,70 @@ img{
   position: absolute;
   top: 10%;
   left: 50%;
-  transform: translate(-50%, 700%);
+  transform: translate(-50%, 60%);
   font-size: 30px;
 }
 
-.form0 {
+.form {
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-size: 15px;
+}
+
+textarea {
+  width: 1000px;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 0px solid #ffffff94;
+  border-radius: 4px;
+  background-color: #ffffff94;
+  font-size: 16px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.Send{
+  background-color: rgb(26, 32, 41);
+  display:inline-block;
+  border: solid white 1px;
+  padding: 3mm;
+  border-radius: 10px;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  transition-duration: 150ms ;
+  transition-property: color;
+  transition-delay: 0ms ;
+  transition-timing-function: ease ;
+  padding-left:20px;
+  padding-right:20px;
+  margin-left: 200px;
+  margin-top:100px;
+}
+
+@media screen and (min-width:50px) and (max-width: 615px){
+  .flex-container1 {
+    height: fit-content;
+    img{
+      width: 480px;
+    }
+  }
+
+.flex-con1 {
+    height: fit-content;
+    img{
+      width: 480px;
+    }
+  }
+
+.box1,.box2{
+    width: 480px;
+  }
+
+  .boxe{
+    width: 480px;
+  }
+
 }
