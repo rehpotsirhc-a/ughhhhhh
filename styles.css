@@ -11,7 +11,7 @@ nav{
     padding-bottom: 5px;
     color: #c7d8fd;
     text-align: center;
-    padding-right: 100px;
+    width: 100vw;
 
 }
 
@@ -202,7 +202,7 @@ p{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -560%);
   font-size: 30px;
 }
 
@@ -210,8 +210,8 @@ p{
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, 0%);
-  font-size: 15px;
+  transform: translate(-50%, -70%);
+  font-size: 20px;
 }
 
 .box3 ,.box4, .box5 { 
@@ -454,5 +454,7 @@ textarea {
   .boxe{
     width: 480px;
   }
-
+textarea{
+  width:300px
+}
 }
